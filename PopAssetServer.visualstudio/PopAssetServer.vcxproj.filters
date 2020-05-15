@@ -45,14 +45,6 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="..\PopAssetServer\Noise.png" />
-    <CopyFileToFolders Include="..\PopAssetServer\TestEnvMapEquirect.jpg" />
-    <CopyFileToFolders Include="..\PopAssetServer\AssetManager.js" />
-    <CopyFileToFolders Include="..\PopAssetServer\bootup.js" />
-    <CopyFileToFolders Include="..\PopAssetServer\index.html" />
-    <CopyFileToFolders Include="..\PopAssetServer\Quad.vert.glsl" />
-    <CopyFileToFolders Include="..\PopAssetServer\SceneMarch.frag.glsl" />
-    <CopyFileToFolders Include="..\PopAssetServer\SceneTrace.frag.glsl" />
     <CopyFileToFolders Include="..\PopAssetServer\PopEngineCommon\LICENSE.md">
       <Filter>PopAssetServer\PopEngineCommon</Filter>
     </CopyFileToFolders>
@@ -137,13 +129,18 @@
     <CopyFileToFolders Include="..\Build\PopEngine_Debug_Chakra_x64\PopEngine.dll">
       <Filter>Dlls</Filter>
     </CopyFileToFolders>
+    <CopyFileToFolders Include="..\Source_Windows\openvr_api.dll" />
+    <CopyFileToFolders Include="..\Source_Windows\PopCameraDevice.dll" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\Source_Windows\openvr_api.dll">
-      <Filter>Dlls</Filter>
+    <None Include="..\PopAssetServer\bootup.js">
+      <Filter>PopAssetServer\PopAssetServer</Filter>
     </None>
-    <None Include="..\Source_Windows\PopCameraDevice.dll">
-      <Filter>Dlls</Filter>
+    <None Include="..\PopAssetServer\PromiseQueue.js">
+      <Filter>PopAssetServer\PopAssetServer</Filter>
+    </None>
+    <None Include="..\PopAssetServer\PopEngineCommon\PopAssetServer.js">
+      <Filter>PopAssetServer\PopEngineCommon</Filter>
     </None>
   </ItemGroup>
 </Project>
