@@ -1,0 +1,3 @@
+[submodule "PopAssetServer/PopEngineCommon"]
+	path = PopAssetServer/PopEngineCommon
+	url = https://github.com/NewChromantics/PopEngineCommon.git
