@@ -17,9 +17,9 @@
 		BFB4D711243E71F30011CD78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF71CAC1243E575900AEF50F /* ViewController.m */; };
 		BFB4D730243F28330011CD78 /* PopEngine_Ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF71CAA2243E4F8F00AEF50F /* PopEngine_Ios.framework */; };
 		BFB4D731243F28330011CD78 /* PopEngine_Ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF71CAA2243E4F8F00AEF50F /* PopEngine_Ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BFEF6A2A246BED7A000A1F88 /* PopWebsocketOscBridge in Resources */ = {isa = PBXBuildFile; fileRef = BFEF6A29246BED79000A1F88 /* PopWebsocketOscBridge */; };
 		BFEF6A2C246BEFCC000A1F88 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEF6A2B246BEFCC000A1F88 /* Icons.xcassets */; };
 		BFEF6A2D246BEFCC000A1F88 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFEF6A2B246BEFCC000A1F88 /* Icons.xcassets */; };
+		BFEF6A342471835D000A1F88 /* PopAssetServer in Resources */ = {isa = PBXBuildFile; fileRef = BFEF6A312471835D000A1F88 /* PopAssetServer */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,8 +104,8 @@
 		BF71CAC4243E575A00AEF50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF71CAC9243E575F00AEF50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF71CACB243E575F00AEF50F /* Info_Ios.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_Ios.plist; sourceTree = "<group>"; };
-		BFEF6A29246BED79000A1F88 /* PopWebsocketOscBridge */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PopWebsocketOscBridge; sourceTree = "<group>"; };
 		BFEF6A2B246BEFCC000A1F88 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
+		BFEF6A312471835D000A1F88 /* PopAssetServer */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PopAssetServer; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,7 +131,7 @@
 		BF18265F2422502B006FEB93 = {
 			isa = PBXGroup;
 			children = (
-				BFEF6A29246BED79000A1F88 /* PopWebsocketOscBridge */,
+				BFEF6A312471835D000A1F88 /* PopAssetServer */,
 				BF71CA95243E4F6400AEF50F /* PopEngine */,
 				BF71CABC243E575900AEF50F /* Source_Ios */,
 				BF18268C24225109006FEB93 /* Frameworks */,
@@ -334,7 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFEF6A2A246BED7A000A1F88 /* PopWebsocketOscBridge in Resources */,
+				BFEF6A342471835D000A1F88 /* PopAssetServer in Resources */,
 				BFEF6A2C246BEFCC000A1F88 /* Icons.xcassets in Resources */,
 				BF71CAAF243E51A700AEF50F /* MainMenu.xib in Resources */,
 			);
