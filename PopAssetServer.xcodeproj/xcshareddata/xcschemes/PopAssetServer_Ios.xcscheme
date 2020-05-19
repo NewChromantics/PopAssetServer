@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF5EAFB4237F0C100077BCF5"
-               BuildableName = "PopEngine_Osx.framework"
-               BlueprintName = "PopEngine_Osx"
-               ReferencedContainer = "container:../PopEngine/PopEngine.xcodeproj">
+               BlueprintIdentifier = "BF71CABA243E575900AEF50F"
+               BuildableName = "PopAssetServer_Ios.app"
+               BlueprintName = "PopAssetServer_Ios"
+               ReferencedContainer = "container:PopAssetServer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF1826672422502B006FEB93"
-               BuildableName = "PopWebsocketOscBridge.app"
-               BlueprintName = "PopWebsocketOscBridge"
-               ReferencedContainer = "container:PopWebsocketOscBridge.xcodeproj">
+               BlueprintIdentifier = "BF151F7523845F2E00A70EBF"
+               BuildableName = "PopEngine_Ios.framework"
+               BlueprintName = "PopEngine_Ios"
+               ReferencedContainer = "container:../PopEngine/PopEngine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,10 +46,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF1826672422502B006FEB93"
-            BuildableName = "PopWebsocketOscBridge.app"
-            BlueprintName = "PopWebsocketOscBridge"
-            ReferencedContainer = "container:PopWebsocketOscBridge.xcodeproj">
+            BlueprintIdentifier = "BF71CABA243E575900AEF50F"
+            BuildableName = "PopAssetServer_Ios.app"
+            BlueprintName = "PopAssetServer_Ios"
+            ReferencedContainer = "container:PopAssetServer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -59,6 +59,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      enableASanStackUseAfterReturn = "YES"
+      disableMainThreadChecker = "YES"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -69,10 +71,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF1826672422502B006FEB93"
-            BuildableName = "PopWebsocketOscBridge.app"
-            BlueprintName = "PopWebsocketOscBridge"
-            ReferencedContainer = "container:PopWebsocketOscBridge.xcodeproj">
+            BlueprintIdentifier = "BF71CABA243E575900AEF50F"
+            BuildableName = "PopAssetServer_Ios.app"
+            BlueprintName = "PopAssetServer_Ios"
+            ReferencedContainer = "container:PopAssetServer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -88,10 +90,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "BF1826672422502B006FEB93"
-            BuildableName = "PopWebsocketOscBridge.app"
-            BlueprintName = "PopWebsocketOscBridge"
-            ReferencedContainer = "container:PopWebsocketOscBridge.xcodeproj">
+            BlueprintIdentifier = "BF71CABA243E575900AEF50F"
+            BuildableName = "PopAssetServer_Ios.app"
+            BlueprintName = "PopAssetServer_Ios"
+            ReferencedContainer = "container:PopAssetServer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

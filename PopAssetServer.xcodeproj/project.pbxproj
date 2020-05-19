@@ -92,13 +92,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BF1826682422502B006FEB93 /* PopWebsocketOscBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopWebsocketOscBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1826682422502B006FEB93 /* PopAssetServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopAssetServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF1826732422502D006FEB93 /* Info_Osx.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info_Osx.plist; sourceTree = "<group>"; };
 		BF1826742422502D006FEB93 /* Main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Main.cpp; sourceTree = "<group>"; };
 		BF1826762422502D006FEB93 /* PopCave.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PopCave.entitlements; sourceTree = "<group>"; };
 		BF18267C2422505D006FEB93 /* PopEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PopEngine.xcodeproj; sourceTree = "<group>"; };
 		BF71CAAE243E51A700AEF50F /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
-		BF71CABB243E575900AEF50F /* PopWebsocketOscBridge_Ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopWebsocketOscBridge_Ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF71CABB243E575900AEF50F /* PopAssetServer_Ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopAssetServer_Ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF71CAC0243E575900AEF50F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BF71CAC1243E575900AEF50F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BF71CAC4243E575A00AEF50F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -144,8 +144,8 @@
 		BF1826692422502B006FEB93 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF1826682422502B006FEB93 /* PopWebsocketOscBridge.app */,
-				BF71CABB243E575900AEF50F /* PopWebsocketOscBridge_Ios.app */,
+				BF1826682422502B006FEB93 /* PopAssetServer.app */,
+				BF71CABB243E575900AEF50F /* PopAssetServer_Ios.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,9 +220,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		BF1826672422502B006FEB93 /* PopWebsocketOscBridge */ = {
+		BF1826672422502B006FEB93 /* PopAssetServer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF1826792422502D006FEB93 /* Build configuration list for PBXNativeTarget "PopWebsocketOscBridge" */;
+			buildConfigurationList = BF1826792422502D006FEB93 /* Build configuration list for PBXNativeTarget "PopAssetServer" */;
 			buildPhases = (
 				BF1826C42423CF77006FEB93 /* Headers */,
 				BF1826642422502B006FEB93 /* Sources */,
@@ -235,14 +235,14 @@
 			dependencies = (
 				BF6497602440E3B900D71943 /* PBXTargetDependency */,
 			);
-			name = PopWebsocketOscBridge;
+			name = PopAssetServer;
 			productName = PopKandinsky;
-			productReference = BF1826682422502B006FEB93 /* PopWebsocketOscBridge.app */;
+			productReference = BF1826682422502B006FEB93 /* PopAssetServer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF71CABA243E575900AEF50F /* PopWebsocketOscBridge_Ios */ = {
+		BF71CABA243E575900AEF50F /* PopAssetServer_Ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF71CAD3243E575F00AEF50F /* Build configuration list for PBXNativeTarget "PopWebsocketOscBridge_Ios" */;
+			buildConfigurationList = BF71CAD3243E575F00AEF50F /* Build configuration list for PBXNativeTarget "PopAssetServer_Ios" */;
 			buildPhases = (
 				BF71CAB7243E575900AEF50F /* Sources */,
 				BF71CAB8243E575900AEF50F /* Frameworks */,
@@ -255,9 +255,9 @@
 				BF71CADD243E57B500AEF50F /* PBXTargetDependency */,
 				BFB4D733243F28330011CD78 /* PBXTargetDependency */,
 			);
-			name = PopWebsocketOscBridge_Ios;
+			name = PopAssetServer_Ios;
 			productName = PopCave_Ios;
-			productReference = BF71CABB243E575900AEF50F /* PopWebsocketOscBridge_Ios.app */;
+			productReference = BF71CABB243E575900AEF50F /* PopAssetServer_Ios.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -280,7 +280,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF1826632422502B006FEB93 /* Build configuration list for PBXProject "PopWebsocketOscBridge" */;
+			buildConfigurationList = BF1826632422502B006FEB93 /* Build configuration list for PBXProject "PopAssetServer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -299,8 +299,8 @@
 			);
 			projectRoot = "";
 			targets = (
-				BF1826672422502B006FEB93 /* PopWebsocketOscBridge */,
-				BF71CABA243E575900AEF50F /* PopWebsocketOscBridge_Ios */,
+				BF1826672422502B006FEB93 /* PopAssetServer */,
+				BF71CABA243E575900AEF50F /* PopAssetServer_Ios */,
 			);
 		};
 /* End PBXProject section */
@@ -628,7 +628,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF1826632422502B006FEB93 /* Build configuration list for PBXProject "PopWebsocketOscBridge" */ = {
+		BF1826632422502B006FEB93 /* Build configuration list for PBXProject "PopAssetServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF1826772422502D006FEB93 /* Debug */,
@@ -637,7 +637,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF1826792422502D006FEB93 /* Build configuration list for PBXNativeTarget "PopWebsocketOscBridge" */ = {
+		BF1826792422502D006FEB93 /* Build configuration list for PBXNativeTarget "PopAssetServer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF18267A2422502D006FEB93 /* Debug */,
@@ -646,7 +646,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF71CAD3243E575F00AEF50F /* Build configuration list for PBXNativeTarget "PopWebsocketOscBridge_Ios" */ = {
+		BF71CAD3243E575F00AEF50F /* Build configuration list for PBXNativeTarget "PopAssetServer_Ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF71CACE243E575F00AEF50F /* Debug */,
