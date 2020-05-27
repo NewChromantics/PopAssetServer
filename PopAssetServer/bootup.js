@@ -57,7 +57,6 @@ DragAndDropLoop().then(Pop.Debug).catch(Pop.Debug);
 //	run server
 const AssetServerPortCount = 10;
 const AssetServer_Ports = [...Array(AssetServerPortCount)].map( (v,i) => 0xF11E + i );	//	generate X ports from F11E (file)
-Pop.Debug(AssetServer_Ports);
 const AssetServer_Directories = [];
 const AssetServer = new Pop.AssetServer(AssetServer_Ports);
 const ListenDirectorySavedFilename = 'ListenDirectories.json';
