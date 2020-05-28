@@ -355,12 +355,6 @@
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)\PopAssetServer\PopEngineCommon</DestinationFolders>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)\PopAssetServer\PopEngineCommon</DestinationFolders>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\PopAssetServer\PopEngineCommon\PromiseQueue.js">
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\PopAssetServer\PopEngineCommon</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\PopAssetServer\PopEngineCommon</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)\PopAssetServer\PopEngineCommon</DestinationFolders>
-      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)\PopAssetServer\PopEngineCommon</DestinationFolders>
-    </CopyFileToFolders>
     <CopyFileToFolders Include="..\PopAssetServer\PopEngineCommon\Readme.md">
       <FileType>Document</FileType>
       <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\PopAssetServer\PopEngineCommon</DestinationFolders>
@@ -370,17 +364,18 @@
     </CopyFileToFolders>
   </ItemGroup>
   <ItemGroup>
-    <CopyFileToFolders Include="..\Source_Windows\openvr_api.dll">
-      <FileType>Document</FileType>
+    <CopyFileToFolders Include="..\PopAssetServer\bootup.js">
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\PopAssetServer\</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\PopAssetServer\</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)\PopAssetServer\</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)\PopAssetServer\</DestinationFolders>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Source_Windows\PopCameraDevice.dll">
-      <FileType>Document</FileType>
+    <CopyFileToFolders Include="..\PopAssetServer\PopEngineCommon\PopAssetServer.js">
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(OutDir)\PopAssetServer\PopEngineCommon</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)\PopAssetServer\PopEngineCommon</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(OutDir)\PopAssetServer\PopEngineCommon</DestinationFolders>
+      <DestinationFolders Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(OutDir)\PopAssetServer\PopEngineCommon</DestinationFolders>
     </CopyFileToFolders>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="..\PopAssetServer\bootup.js" />
-    <None Include="..\PopAssetServer\PopEngineCommon\PopAssetServer.js" />
-    <None Include="..\PopAssetServer\PromiseQueue.js" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

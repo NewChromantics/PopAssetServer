@@ -120,23 +120,15 @@
     <CopyFileToFolders Include="..\PopAssetServer\PopEngineCommon\PopWebXrApi.js">
       <Filter>PopAssetServer\PopEngineCommon</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\PopAssetServer\PopEngineCommon\PromiseQueue.js">
-      <Filter>PopAssetServer\PopEngineCommon</Filter>
-    </CopyFileToFolders>
     <CopyFileToFolders Include="..\PopAssetServer\PopEngineCommon\Readme.md">
       <Filter>PopAssetServer\PopEngineCommon</Filter>
     </CopyFileToFolders>
     <CopyFileToFolders Include="..\Build\PopEngine_Debug_Chakra_x64\PopEngine.dll">
       <Filter>Dlls</Filter>
     </CopyFileToFolders>
-    <CopyFileToFolders Include="..\Source_Windows\openvr_api.dll" />
-    <CopyFileToFolders Include="..\Source_Windows\PopCameraDevice.dll" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\PopAssetServer\bootup.js">
-      <Filter>PopAssetServer\PopAssetServer</Filter>
-    </None>
-    <None Include="..\PopAssetServer\PromiseQueue.js">
       <Filter>PopAssetServer\PopAssetServer</Filter>
     </None>
     <None Include="..\PopAssetServer\PopEngineCommon\PopAssetServer.js">
