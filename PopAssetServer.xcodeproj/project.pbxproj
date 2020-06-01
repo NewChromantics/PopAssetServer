@@ -542,7 +542,7 @@
 				CODE_SIGN_ENTITLEMENTS = Source_Osx/PopCave.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2HGDT7H2KX;
+				DEVELOPMENT_TEAM = X52DR36JY2;
 				HEADER_SEARCH_PATHS = (
 					"$(BUILD_DIR)/Debug_JavascriptCore/**",
 					"$(BUILD_DIR)/Debug_JavascriptCore/PopEngine_Osx.framework/Headers",
@@ -552,7 +552,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.NewChromantics.PopWebsocketOscBridge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewChromantics.PopAssetServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -564,7 +564,7 @@
 				CODE_SIGN_ENTITLEMENTS = Source_Osx/PopCave.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2HGDT7H2KX;
+				DEVELOPMENT_TEAM = X52DR36JY2;
 				HEADER_SEARCH_PATHS = (
 					"$(BUILD_DIR)/Debug_JavascriptCore/**",
 					"$(BUILD_DIR)/Debug_JavascriptCore/PopEngine_Osx.framework/Headers",
@@ -574,7 +574,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.NewChromantics.PopWebsocketOscBridge;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewChromantics.PopAssetServer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -586,7 +586,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 2HGDT7H2KX;
+				DEVELOPMENT_TEAM = X52DR36JY2;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/Debug_JavascriptCore-iphoneos/PopEngine_Ios.framework/Headers/**";
 				INFOPLIST_FILE = "$(SRCROOT)/Source_Ios/Info_Ios.plist";
@@ -595,7 +595,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.NewChromantics.PopCap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewChromantics.PopAssetServerIos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -608,7 +608,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_Ios;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2HGDT7H2KX;
+				DEVELOPMENT_TEAM = X52DR36JY2;
 				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = "$(BUILD_DIR)/Debug_JavascriptCore-iphoneos/PopEngine_Ios.framework/Headers/**";
 				INFOPLIST_FILE = "$(SRCROOT)/Source_Ios/Info_Ios.plist";
@@ -617,7 +617,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.NewChromantics.PopCap;
+				PRODUCT_BUNDLE_IDENTIFIER = com.NewChromantics.PopAssetServerIos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
