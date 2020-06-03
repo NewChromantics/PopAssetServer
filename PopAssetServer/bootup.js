@@ -8,19 +8,31 @@ Pop.Include('PopEngineCommon/PopApi.js');
 Pop.Include('PopEngineCommon/PopAssetServer.js');
 
 
-
+function StringSplitByLength(Str,ChunkLength)
+{
+	ChunkLength = Math.max(2,ChunkLength);
+	const Chunks = [];
+	for ( let i=0;	i<Str.length;	i+=ChunkLength)
+		Chunks.push( Str.substring(i,i+ChunkLength) );
+	return Chunks;
+}
 
 function RedirectDebugToLabel(Label)
 {
 	const OldDebug = Pop.Debug;
 	const DebugLog = [];
-	const MaxDebugLogLength = 50;
+	const MaxDebugLogLength = 100;
+	const MaxDebugLineLength = 100;
 	Pop.Debug = function()
 	{
-		const DebugString = [...arguments].join(',');
-		DebugLog.splice(0,0,DebugString);
+		//	temp fix; auto-split lines to stop label clipping debug
+		const Args = [...arguments];
+		const DebugString = Args.join(',');
+
+		const LineChunks = StringSplitByLength(DebugString,MaxDebugLineLength);
+		DebugLog.splice(0,0,...LineChunks);
 		DebugLog.splice(MaxDebugLogLength,DebugLog.length);
-		
+
 		//	update label
 		DebugLabel.SetValue(DebugLog.join('\n'));
 		
