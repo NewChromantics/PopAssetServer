@@ -30,6 +30,7 @@ jobs:
 
           - os: macOS
             type: Osx
+            scheme: PopAssetServer_Osx
 
     steps:
       - name: Checkout repo
@@ -75,7 +76,7 @@ jobs:
         if: matrix.config.os == 'macOS'
         uses: NewChromantics/PopAction_BuildApple@v1
         with:
-          BuildScheme: ${{ env.project }}_${{ matrix.config.type }}
+          BuildScheme: ${{ matrix.config.scheme }}
           project: ${{ env.project }}
           
       - name: Linux
@@ -152,6 +153,5 @@ jobs:
         if: startsWith(github.ref, 'refs/tags/v')
         uses: fnkr/github-action-ghr@v1   
         env:
-         GHR_COMPRESS: xz
          GHR_PATH: ${{ env.project }}.Package/
          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
