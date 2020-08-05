@@ -1,7 +1,7 @@
 name: Build Windows
 
 env:
-  project: PopCap
+  project: PopAssetServer
   AUTH_TOKEN: ${{ secrets.PACKAGE_KEY_ACTIONS }}
 
 on:
