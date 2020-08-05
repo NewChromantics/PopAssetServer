@@ -18,10 +18,8 @@ jobs:
       matrix:
         config:
           - os: macOS
-            type: Ios
-
-          - os: macOS
             type: Osx
+            scheme: PopAssetServer_Osx
 
     steps:
       - uses: actions/checkout@v2
@@ -49,5 +47,5 @@ jobs:
 
       - uses: NewChromantics/PopAction_BuildApple@v1
         with:
-          BuildScheme: ${{ env.project }}_${{ matrix.config.type }}
+          BuildScheme: ${{ matrix.config.scheme }}
           project: ${{ env.project }}
