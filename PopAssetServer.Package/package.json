@@ -1,0 +1,26 @@
+{
+  "name": "@newchromantics/popassetserver",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@newchromantics/popengine": "0.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewChromantics/PopAssetServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NewChromantics/PopAssetServer/issues"
+  },
+  "homepage": "https://github.com/NewChromantics/PopAssetServer#readme"
+}
